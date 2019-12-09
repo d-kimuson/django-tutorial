@@ -16,6 +16,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'tutorial_app',  # Need to Add
 ]
 
 MIDDLEWARE = [

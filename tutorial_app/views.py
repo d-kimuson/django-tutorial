@@ -4,7 +4,7 @@ from .models import Message
 
 def index(request):
     context = {
-        'message': 'Hello'
+        'message': 'Hello, Koshikawa'
     }
     return render(request, 'index.html', context)
 

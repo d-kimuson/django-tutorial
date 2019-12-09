@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# RUN: source setup.sh
+
+python3 -m venv env && source env/bin/activate
+pip install -r requirements.txt
+python3 manage.py makemigrations && python3 manage.py migrate
+python3 manage.py loaddata fixture.json
